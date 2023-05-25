@@ -1,0 +1,37 @@
+* {
+    font-family: 'Creepster', cursive;
+    background-color: red;
+}
+
+.main-header{
+    color: black;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    transition: all .05s;
+    transform: scaleY(-1);
+}
+
+.main-header:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    transform: scaleY(1);
+}
+
+a.btn {
+color: black;
+text-decoration: none;
+padding: 4px 8px;
+border-radius: 5px;
+transition: all 1s;
+display: inline-block;
+transform: rotate(45deg);
+}
+
+a.btn:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    transform: translateX(30px);
+}
